@@ -8,31 +8,76 @@
 
 ---
 
-## 👋 About Me  
-I’m a **Computer Science** student at the **University of Waterloo** with a dual focus on **Business Administration** from Wilfrid Laurier. I enjoy building **scalable software solutions**, working with **data**, and tackling **frontend and backend challenges**. With hands-on co-op experience and a passion for **algorithms** and **data structures**, I thrive in **collaborative, agile environments**.  
-Currently looking for a **4-month opportunity from Jan 2025 – Apr 2025** in a **tech-focused position**.
+👋 About Me
+I'm a Computer Science & Business Administration student pursuing a dual degree at the University of Waterloo and Wilfrid Laurier University. My expertise lies in:
 
+📊 Data Analytics & Machine Learning
+🎯 Full Stack Development
+🔧 System Architecture & Optimization
+📱 Responsive Web Applications
+
+Currently seeking: Software Development/Data Engineering co-op opportunities for Jan 2025 – Apr 2025
 ---
 
 ## 🛠️ Skills  
-- **Languages:** Python, JavaScript, Java, C++, HTML, CSS  
-- **Frameworks:** React, Node.js, Express.js, Next.js  
-- **Tools:** SQL, MongoDB, Git, AWS, Power BI  
+skills = {
+    "Languages": ["Python", "C++", "JavaScript", "Java", "SQL", "HTML/CSS", "R"],
+    "Frameworks": ["React", "Node.js", "Vue.js", "Express.js", "Next.js"],
+    "Cloud & DevOps": ["AWS", "Docker", "Git", "Google Cloud Platform"],
+    "Databases": ["MongoDB", "SQL"],
+    "Libraries": ["pandas", "NumPy", "Matplotlib", "Scikit-learn", "Tailwind CSS"]
+}
 
 ---
 
-## 🚀 Projects  
-- **TravelZ:** Travel platform with **20x faster load times** and improved system stability.  
-- **Chess C++:** Fully functional chess game focused on **OOP concepts**.
+🚀 Featured Projects
+Pokédex Pro
 
----
+Vue.js-based Pokédex with dynamic search across 1,100+ Pokémon
+Implemented Map-based caching reducing API calls by 75%
+Optimized loading times by 50% through sprite caching
 
-## 💼 Experience  
-- **Data Analyst @ Headsup Group & iVirtual:**  
-  Worked on an NHL loyalty program; **15x faster data processing** with Python & Docker on AWS.
+S&P 500 Predictor
 
----
+ML model achieving 57.6% accuracy in market movement predictions
+Comprehensive data pipeline using yFinance API
+Advanced visualization suite using Matplotlib
 
-## 🎓 Education  
-- **BCompSci – University of Waterloo** | **BBA (Co-op) – Wilfrid Laurier**  
-- **Awards:** President’s Gold Scholarship | Ontario Scholar  
+Chess Engine
+
+C++ chess engine with 95% code coverage
+60% performance improvement using bitboard representation
+Automated testing suite with Valgrind memory leak detection
+
+TravelZ
+
+MERN stack travel platform with 20x faster load times
+Optimized MongoDB queries with 45% faster data retrieval
+Real-time price and availability updates
+
+
+💼 Professional Experience
+Data Analyst @ Headsup Group & iVirtual (Jan 2024 – Apr 2024)
+
+Managed NHL Seattle Kraken rewards program database
+Achieved 15x faster data processing with Python & Docker on AWS
+80%+ weekly engagement rate through automated systems
+NPS >70 through systematic improvements
+
+
+📈 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jerrylin-23&show_icons=true&theme=gradient&count_private=true" alt="GitHub Stats" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jerrylin-23&theme=dark" alt="GitHub Streak" />
+</p>
+
+📫 Let's Connect!
+
+💼 Open to co-op opportunities and collaborations
+🤝 Interested in open source contributions
+📧 Reach out at jy3lin@uwaterloo.ca
+
+
+⭐️ From jerrylin-23
