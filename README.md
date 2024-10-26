@@ -20,13 +20,11 @@ Currently seeking: Software Development/Data Engineering co-op opportunities for
 ---
 
 ## 🛠️ Skills  
-skills = {
-    "Languages": ["Python", "C++", "JavaScript", "Java", "SQL", "HTML/CSS", "R"],
-    "Frameworks": ["React", "Node.js", "Vue.js", "Express.js", "Next.js"],
-    "Cloud & DevOps": ["AWS", "Docker", "Git", "Google Cloud Platform"],
-    "Databases": ["MongoDB", "SQL"],
-    "Libraries": ["pandas", "NumPy", "Matplotlib", "Scikit-learn", "Tailwind CSS"]
-}
+- **Languages:** Python, C++, JavaScript, Java, SQL, HTML, CSS, R
+- **Frameworks:** React, Node.js, Vue.js, Express.js, Next.js
+- **Cloud & DevOps:** AWS, Docker, Git, Google Cloud Platform
+- **Databases:** MongoDB, SQL
+- **Libraries:** pandas, NumPy, Matplotlib, Scikit-learn, Tailwind CSS
 
 ---
 
