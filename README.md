@@ -1,8 +1,9 @@
-# Jerry Lin
+# Jerry Lin  
 
 📍 **Thornhill, Ontario**  
-📧 **jy3lin@uwaterloo.ca** | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/jerrylin04)  
-[![GitHub followers](https://img.shields.io/github/followers/jerrylin-23?label=Follow&style=social)](https://github.com/jerrylin-23)  
+[![Email](https://img.shields.io/badge/Email-jy3lin@uwaterloo.ca-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jy3lin@uwaterloo.ca) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/jerrylin04) 
+[![GitHub followers](https://img.shields.io/github/followers/jerrylin-23?label=Follow&style=social)](https://github.com/jerrylin-23) 
 ![Profile Views](https://komarev.com/ghpvc/?username=jerrylin-23&color=brightgreen)
 
 ---
