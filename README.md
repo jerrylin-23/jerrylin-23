@@ -1,4 +1,4 @@
-# Jerry Lin | Aspiring Software Engineer  
+# Jerry Lin
 
 📍 **Thorhill, Ontario**  
 📧 **jy3lin@uwaterloo.ca** | [LinkedIn](https://www.linkedin.com/in/jerrylin04)  
