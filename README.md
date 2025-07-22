@@ -55,10 +55,10 @@ I'm a Computer Science & Business Administration student pursuing a dual degree 
 
 💼 **Professional Experience**  
 **SEO Analyst** @ Autotrader (Jan 2024 – Apr 2024)  
--Designed and deployed Python scripts to extract, clean, and analyze SEO data from Google Search Console and Ahrefs APIs.
--Built Google Sheets dashboards for tracking keyword performance and site traffic, driving a 20% increase in organic impressions.
--Automated ETL workflows in Node.js and Docker, improving data processing efficiency by 30%.
--Collaborated with marketing teams to translate data insights into actionable SEO strategies.
+- Designed and deployed Python scripts to extract, clean, and analyze SEO data from Google Search Console and Ahrefs APIs.
+- Built Google Sheets dashboards for tracking keyword performance and site traffic, driving a 20% increase in organic impressions.
+- Automated ETL workflows in Node.js and Docker, improving data processing efficiency by 30%.
+- Collaborated with marketing teams to translate data insights into actionable SEO strategies.
 
 **Data Analyst** @ Headsup Group & iVirtual (Jan 2024 – Apr 2024)  
 - Managed NHL Seattle Kraken rewards program database
