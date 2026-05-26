@@ -54,13 +54,13 @@ Computer Science & Business Administration student pursuing a dual degree at the
 
 ## 💼 Professional Experience  
 
-### SEO Engineer @ AutoTrader
+### SWE Engineer @ AutoTrader
 *Jan 2025 – Apr 2025 | Toronto, ON*
 - Accelerated SEO insight generation by **~40%** with Python pipelines analyzing **500K+** dynamic URLs
 - Built scalable dashboards integrating Ahrefs, Google Search Console, and Google Sheets APIs
 - Influenced content strategy for **20K+** articles through data-driven performance reviews
 
-### Data Engineer @ HeadsUp Group & iVirtual
+### SWE @ HeadsUp Group & iVirtual
 *Jan 2024 – Apr 2024 | Toronto, ON*
 - Reduced manual data processing by **300+ hours annually** with automated AWS-based ETL pipelines
 - Sustained **80%+** weekly engagement for NHL Seattle Kraken rewards program pilot
