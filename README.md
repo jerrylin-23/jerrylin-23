@@ -9,9 +9,9 @@
 ---
 
 ## 👋 About Me  
-Computer Science & Business Administration student pursuing a dual degree at the **University of Waterloo** and **Wilfrid Laurier University**. Passionate about building at the intersection of AI, finance, and full-stack development.
+Computer Science & Business Administration student pursuing a dual degree at the **University of Waterloo** and **Wilfrid Laurier University**. I build at the intersection of AI, finance, and full-stack development.
 
-**Currently seeking:** SWE/Data co-op opportunities for **Fall 2026**
+**Currently seeking:** SWE/ML co-op opportunities for **Fall 2026**
 
 ---
 
@@ -19,52 +19,66 @@ Computer Science & Business Administration student pursuing a dual degree at the
 
 | Category | Technologies |
 |----------|-------------|
-| **Languages** | Python, C/C++, SQL, JavaScript, Java, HTML/CSS, R |
-| **Frameworks** | React, Node.js, Flask, FastAPI, Vue.js, Express.js, Next.js |
-| **ML/AI** | PyTorch, Hugging Face Transformers, Scikit-learn, LoRA/QLoRA |
-| **Cloud & DevOps** | AWS, Docker, Git, Google Cloud Platform |
-| **Data** | pandas, NumPy, Matplotlib, yfinance, MongoDB |
+| **Languages** | Python, C/C++, SQL, JavaScript/TypeScript, Java, HTML/CSS, R, Bash |
+| **Frameworks** | React, Next.js, Node.js, Express.js, Flask, FastAPI, Vue.js |
+| **ML/AI** | PyTorch, Hugging Face Transformers, LoRA/QLoRA, Scikit-learn, pandas, NumPy |
+| **Cloud & DevOps** | AWS (Lambda, S3, EC2), Docker, Git, Google Cloud Platform |
+| **Data** | PostgreSQL, MongoDB, Matplotlib, yfinance |
 
 ---
 
 ## 🚀 Featured Projects  
 
-### [ICT Buy the Dip Analyzer](https://ict-buy-the-dip.onrender.com/) ↗
-*Python, Flask, Pandas, TradingView Lightweight Charts*
-- Built algorithmic trade signal scanner detecting ICT patterns (FVGs, EQH/EQL) across **500+** tickers
-- Developed backtesting engine achieving **74% win rate** on NVDA, GOOGL, AAPL over **700+** trades
-- Deployed Flask web app on Render with real-time streaming and interactive TradingView charts
-- Engineered data pipeline processing **2 years** of OHLCV data for 500+ symbols
-
 ### [DeepSeek LeetCode Fine-Tuning](https://github.com/jerrylin-23/DeepSeek-LeetCode-Oriented-Training) ↗
 *Python, PyTorch, Hugging Face, LoRA, Kaggle*
-- Fine-tuned DeepSeek-Coder **6.7B** on **2,400** LeetCode problems using QLoRA, improving accuracy **42%** over base
-- Achieved **214%** gain on hard problems through domain-specific dataset curation
-- Built evaluation framework with sandboxed code execution, testing against **100** problems across 3 difficulty levels
-- Merged LoRA adapters and converted to GGUF for local Ollama deployment
+- Fine-tuned DeepSeek-Coder **6.7B** on **2,400** curated LeetCode problems using QLoRA (4-bit quantization)
+- **+42% accuracy** over base model overall; **+214% on hard problems** through domain-specific data curation
+- Built evaluation harness with sandboxed code execution, scoring **100** problems across 3 difficulty tiers
+- Merged LoRA adapters and exported to GGUF for local Ollama deployment
+
+### [Agentic GitHub PR Reviewer](https://github.com/jerrylin-23/gh-pr-reviewer) ↗
+*Python, Textual, Claude Code, GitHub CLI*
+- Built a terminal TUI and CLI for AI-powered GitHub PR reviews using local AI agents (Claude, Antigravity)
+- Async non-blocking workers keep the UI responsive while AI generates full markdown reviews
+- Live auto-complete for repos and PRs; native `gh` CLI auth — no raw API keys required
+- Safe-by-default: reviews staged locally and never posted until explicitly confirmed
+
+### [ICT Buy the Dip Analyzer](https://ict-buy-the-dip.onrender.com/) ↗
+*Python, Flask, Pandas, TradingView Lightweight Charts*
+- Built real-time signal scanner detecting ICT patterns (FVGs, EQH/EQL) across **500+** tickers using vectorized pandas evaluation
+- Backtesting engine with dynamic stop-loss/take-profit achieved **74% win rate** across **700+** simulated trades on NVDA, GOOGL, AAPL
+- Deployed on Render with WebSocket streaming and interactive TradingView charts
+- yfinance pipeline pulling **2 years** of OHLCV data for **500+** symbols
 
 ### [Gemini Portfolio Insights](https://ai-portfolio-analyzer.onrender.com) ↗
 *Python, FastAPI, Gemini API, JavaScript*
 - Built full-stack portfolio platform with FastAPI backend integrating yfinance, ForexFactory, and Gemini APIs
-- Designed **Gemini-to-Gemini pipeline**: first AI summarizes market context, second analyzes portfolio with insights
+- Designed **Gemini-to-Gemini pipeline**: first model summarizes market context, second analyzes portfolio with insights
 - Integrated economic calendar (FOMC, CPI, NFP) and earnings tracking for **30+** megacap stocks
 - Implemented 2-key API rotation with model fallback, reducing failed requests by **90%**
+
+### [IntelliCal](https://www.youtube.com/shorts/UCFAg8bHJJc) ↗
+*Kotlin, Jetpack Compose, Supabase, Coroutines*
+- Built Android app using Jetpack Compose and MVVM, cleanly separating UI from business logic
+- AI vision pipeline parses food photos into structured JSON via prompt engineering — **~88% accuracy**, zero parsing crashes
+- Gamification system driving daily retention; async state management via Kotlin Coroutines syncing to PostgreSQL backend
 
 ---
 
 ## 💼 Professional Experience  
 
-### SWE Engineer @ AutoTrader
+### Software Engineer @ AutoTrader
 *Jan 2025 – Apr 2025 | Toronto, ON*
-- Accelerated SEO insight generation by **~40%** with Python pipelines analyzing **500K+** dynamic URLs
-- Built scalable dashboards integrating Ahrefs, Google Search Console, and Google Sheets APIs
-- Influenced content strategy for **20K+** articles through data-driven performance reviews
+- Built Python data pipelines on **AWS** to crawl and analyze **500K+** dynamic URLs; Redis caching and parallel workers cut runtime from hours to minutes
+- Integrated Ahrefs and Google Search Console APIs into weekly ETL jobs, storing results in **PostgreSQL** and surfacing them through **Tableau** dashboards used by **20+** stakeholders
+- Developed scoring pipeline evaluating **20K+** articles using scikit-learn regression and cohort models to guide editorial strategy
+- Added retry logic, exponential backoff, and circuit breakers to third-party API calls; structured JSON logging for failure tracing
 
-### SWE @ HeadsUp Group & iVirtual
+### Software Engineer @ HeadsUp Group & iVirtual
 *Jan 2024 – Apr 2024 | Toronto, ON*
-- Reduced manual data processing by **300+ hours annually** with automated AWS-based ETL pipelines
-- Sustained **80%+** weekly engagement for NHL Seattle Kraken rewards program pilot
-- Led user segmentation across **100+** profiles to personalize content delivery
+- Deployed containerized ETL services (Python, Node.js, Docker) on AWS to merge **4** siloed databases — saved **300+** engineering hours/year
+- Built SendGrid notification system with queued retries for NHL Seattle Kraken rewards pilot; sustained **80%+** weekly engagement
+- Segmentation pipeline clustered **100+** user profiles by behavioral features to personalize content delivery
 
 ---
 
@@ -79,10 +93,6 @@ Computer Science & Business Administration student pursuing a dual degree at the
 ---
 
 ## 📫 Let's Connect!  
-- 💼 Open to **SWE, Data, and ML internship** opportunities
+- 💼 Open to **SWE, Data, and ML co-op** opportunities for Fall 2026
 - 🤝 Interested in open-source contributions and collaborations
-- 📧 Reach out at [jy3lin@uwaterloo.ca](mailto:jy3lin@uwaterloo.ca)
-
----
-
-⭐️ From [jerrylin-23](https://github.com/jerrylin-23)
+- 📧 [jy3lin@uwaterloo.ca](mailto:jy3lin@uwaterloo.ca)
