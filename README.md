@@ -43,7 +43,7 @@ Computer Science & Business Administration student pursuing a dual degree at the
 - Live auto-complete for repos and PRs; native `gh` CLI auth — no raw API keys required
 - Safe-by-default: reviews staged locally and never posted until explicitly confirmed
 
-### [ICT Buy the Dip Analyzer](https://ict-buy-the-dip.onrender.com/) ↗
+### [Alpha Radar](https://ict-buy-the-dip.onrender.com/) ↗
 *Python, Flask, Pandas, TradingView Lightweight Charts*
 - Built real-time signal scanner detecting ICT patterns (FVGs, EQH/EQL) across **500+** tickers using vectorized pandas evaluation
 - Backtesting engine with dynamic stop-loss/take-profit achieved **74% win rate** across **700+** simulated trades on NVDA, GOOGL, AAPL
