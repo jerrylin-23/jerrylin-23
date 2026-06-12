@@ -114,7 +114,7 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 ## 💼 Professional Experience
 
 ### 🚘 **Software Engineer** @ **AutoTrader**
-*Toronto, ON (Hybrid) | Jan 2025 – Apr 2025*
+*Toronto, ON (Hybrid) | Sept 2025 – Dec 2025 | Jan 2025 – Apr 2025*
 * **Data Scale:** Scaled Python data pipelines on **AWS** to crawl and analyze **500K+** dynamic URLs, leveraging parallel workers and Redis caching to reduce runtime from hours to minutes.
 * **Stakeholder Analytics:** Merged search engine APIs into weekly ETL processes, storing results in **PostgreSQL** and building **Tableau** dashboards used by **20+** leadership and marketing stakeholders.
 * **ML Modeling:** Built a statistical scoring engine evaluating **20K+** articles using scikit-learn regression models to prioritize content strategy.
