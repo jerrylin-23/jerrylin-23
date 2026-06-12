@@ -138,32 +138,21 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 
 ## 💼 Professional Experience
 
-### 🚘 **Software Engineer** @ **AutoTrader**
-*Toronto, ON (Hybrid) | Sept 2025 – Dec 2025 | Jan 2025 – Apr 2025*
+### 🚘 Software Engineer @ AutoTrader
+*Toronto, ON (Hybrid) — Sept 2025 – Dec 2025 · Jan 2025 – Apr 2025*
 
-<details>
-<summary><b>View Role & Achievements</b></summary>
+* **Data Scale:** Scaled AWS Python pipelines to crawl 500K+ URLs, cutting runtime from hours to minutes via parallel workers + Redis caching.
+* **Stakeholder Analytics:** Built weekly ETL into PostgreSQL and Tableau dashboards used by 20+ leadership and marketing stakeholders.
+* **ML Modeling:** Built a scikit-learn scoring engine ranking 20K+ articles to prioritize content strategy.
 
-* **Data Scale:** Scaled Python data pipelines on **AWS** to crawl and analyze **500K+** dynamic URLs, leveraging parallel workers and Redis caching to reduce runtime from hours to minutes.
-* **Stakeholder Analytics:** Merged search engine APIs into weekly ETL processes, storing results in **PostgreSQL** and building **Tableau** dashboards used by **20+** leadership and marketing stakeholders.
-* **ML Modeling:** Built a statistical scoring engine evaluating **20K+** articles using scikit-learn regression models to prioritize content strategy.
-* **Reliability:** Implemented retry logic, exponential backoff, and circuit breakers for external API integrations, backed by structured JSON logging.
+### 🎟️ Software Engineer @ HeadsUp Group & iVirtual
+*Toronto, ON — Jan 2024 – Apr 2024*
 
-</details>
+* **Database Consolidation:** Dockerized AWS ETL pipelines merging 4 siloed databases, saving 300+ engineering hours/year.
+* **Notification Engine:** Built a SendGrid pipeline with queued retries for an NHL Kraken rewards pilot, sustaining 80%+ weekly engagement.
+* **User Segmentation:** Built a pipeline clustering 100+ user profiles by behavior for personalized rewards delivery.
 
-### 🎟️ **Software Engineer** @ **HeadsUp Group & iVirtual**
-*Toronto, ON | Jan 2024 – Apr 2024*
-
-<details>
-<summary><b>View Role & Achievements</b></summary>
-
-* **Database Consolidation:** Containerized (Docker) ETL pipelines on AWS to merge **4** siloed databases, saving the engineering team **300+** hours/year.
-* **Notification Engine:** Developed a SendGrid notification pipeline with queued retries for an NHL Kraken rewards pilot, maintaining **80%+** weekly engagement.
-* **User Segmentation:** Built a pipeline clustering **100+** user profiles by behavioral metrics for personalized rewards delivery.
-
-</details>
-
-
+---
 
 ## 📫 Let's Connect!
 
