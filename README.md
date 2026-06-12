@@ -6,11 +6,11 @@
 
 📍 Thornhill, Ontario, Canada
 
-[![Email](https://img.shields.io/badge/Email-jy3lin%40uwaterloo.ca-89ddff?style=flat-square&logo=gmail&logoColor=1a1b26&labelColor=7aa2f7)](mailto:jy3lin@uwaterloo.ca)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-7aa2f7?style=flat-square&logo=linkedin&logoColor=1a1b26&labelColor=89ddff)](https://www.linkedin.com/in/jerrylin04)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-bb9af3?style=flat-square&logo=google-chrome&logoColor=1a1b26&labelColor=ff007c)](https://jerrylin23.vercel.app/)
-[![GitHub Followers](https://img.shields.io/github/followers/jerrylin-23?label=Followers&style=flat-square&color=ff007c&logo=github)](https://github.com/jerrylin-23)
-![Profile Views](https://komarev.com/ghpvc/?username=jerrylin-23&color=7aa2f7&style=flat-square&label=Profile+Views)
+[![Email](https://img.shields.io/badge/Email-jy3lin%40uwaterloo.ca-1f2328?style=flat-square&logo=gmail&logoColor=white)](mailto:jy3lin@uwaterloo.ca)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-1f2328?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jerrylin04)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-1f2328?style=flat-square&logo=google-chrome&logoColor=white)](https://jerrylin23.vercel.app/)
+[![GitHub Followers](https://img.shields.io/github/followers/jerrylin-23?label=Followers&style=flat-square&color=1f2328&logo=github&logoColor=white)](https://github.com/jerrylin-23)
+![Profile Views](https://komarev.com/ghpvc/?username=jerrylin-23&color=1f2328&style=flat-square&label=Profile+Views)
 
 </div>
 
@@ -141,12 +141,12 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 
 <p align="center">
   <a href="mailto:jy3lin@uwaterloo.ca">
-    <img src="https://img.shields.io/badge/Email-jy3lin@uwaterloo.ca-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-jy3lin@uwaterloo.ca-1f2328?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://www.linkedin.com/in/jerrylin04">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-1f2328?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://jerrylin23.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-bb9af3?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-Visit-1f2328?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
   </a>
 </p>
