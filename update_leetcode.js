@@ -1,0 +1,257 @@
+const fs = require('fs');
+
+const GRAPHQL_ENDPOINT = "https://leetcode.com/graphql";
+const USERNAME = "Jerry_lin23";
+
+async function getLeetCodeStats() {
+  const query = `
+    query userProfile($username: String!) {
+      matchedUser(username: $username) {
+        username
+        profile {
+          ranking
+        }
+        submitStats {
+          acSubmissionNum {
+            difficulty
+            count
+          }
+        }
+      }
+    }
+  `;
+
+  const response = await fetch(GRAPHQL_ENDPOINT, {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      referer: "https://leetcode.com",
+    },
+    body: JSON.stringify({
+      query,
+      variables: { username: USERNAME },
+    }),
+  });
+
+  if (!response.ok) {
+    throw new Error(`LeetCode API returned ${response.status}`);
+  }
+
+  const payload = await response.json();
+  const matchedUser = payload.data?.matchedUser;
+  if (!matchedUser) {
+    throw new Error("User not found");
+  }
+
+  const stats = matchedUser.submitStats.acSubmissionNum;
+  const countFor = (diff) => stats.find(item => item.difficulty === diff)?.count ?? 0;
+
+  return {
+    username: matchedUser.username,
+    solved: countFor("All"),
+    easy: countFor("Easy"),
+    medium: countFor("Medium"),
+    hard: countFor("Hard"),
+    ranking: matchedUser.profile?.ranking ?? null,
+  };
+}
+
+function generateSVG(stats) {
+  const totalDiff = stats.easy + stats.medium + stats.hard;
+  const easyPct = totalDiff > 0 ? (stats.easy / totalDiff) * 100 : 0;
+  const mediumPct = totalDiff > 0 ? (stats.medium / totalDiff) * 100 : 0;
+  const hardPct = totalDiff > 0 ? (stats.hard / totalDiff) * 100 : 0;
+
+  // Formatting numbers with commas
+  const formatNum = (n) => new Intl.NumberFormat().format(n);
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" fill="none">
+  <style>
+    .card {
+      fill: #1a1b26;
+      stroke: #1f2328;
+      stroke-width: 1px;
+      rx: 12px;
+    }
+    .title {
+      font-family: 'Segoe UI', Ubuntu, Sans-Serif;
+      font-weight: 500;
+      font-size: 10px;
+      fill: #7aa2f7;
+      letter-spacing: 0.14em;
+    }
+    .subtitle {
+      font-family: 'Segoe UI', Ubuntu, Sans-Serif;
+      font-weight: 600;
+      font-size: 14px;
+      fill: #ffffff;
+    }
+    .lc-badge {
+      fill: #ffa116;
+    }
+    .lc-badge-bg {
+      fill: rgba(255, 161, 22, 0.1);
+      rx: 8px;
+    }
+    .lc-badge-text {
+      font-family: 'Segoe UI', Ubuntu, Sans-Serif;
+      font-weight: bold;
+      font-size: 14px;
+      fill: #ffa116;
+    }
+    .link-text {
+      font-family: 'Segoe UI', Ubuntu, Sans-Serif;
+      font-size: 11px;
+      fill: #565f89;
+    }
+    .stat-box {
+      fill: rgba(255, 255, 255, 0.02);
+      stroke: rgba(255, 161, 22, 0.1);
+      stroke-width: 1px;
+      rx: 8px;
+    }
+    .stat-box-label {
+      font-family: 'Segoe UI', Ubuntu, Sans-Serif;
+      font-weight: 500;
+      font-size: 9px;
+      fill: #565f89;
+      letter-spacing: 0.16em;
+    }
+    .stat-box-value {
+      font-family: 'Segoe UI', Ubuntu, Sans-Serif;
+      font-weight: bold;
+      font-size: 15px;
+      fill: #ffa116;
+    }
+    .stat-tile {
+      fill: rgba(255, 255, 255, 0.02);
+      stroke-width: 1px;
+      rx: 8px;
+    }
+    .easy-tile { stroke: rgba(16, 185, 129, 0.1); }
+    .medium-tile { stroke: rgba(245, 158, 11, 0.1); }
+    .hard-tile { stroke: rgba(244, 63, 94, 0.1); }
+    
+    .tile-dot { rx: 50%; }
+    .easy-dot { fill: #10b981; }
+    .medium-dot { fill: #f59e0b; }
+    .hard-dot { fill: #f43f5e; }
+    
+    .tile-label {
+      font-family: 'Segoe UI', Ubuntu, Sans-Serif;
+      font-weight: 500;
+      font-size: 8px;
+      fill: #565f89;
+      letter-spacing: 0.16em;
+    }
+    .tile-value {
+      font-family: 'Segoe UI', Ubuntu, Sans-Serif;
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .easy-value { fill: #10b981; }
+    .medium-value { fill: #f59e0b; }
+    .hard-value { fill: #f43f5e; }
+    
+    .dist-label {
+      font-family: 'Segoe UI', Ubuntu, Sans-Serif;
+      font-size: 8px;
+      fill: #565f89;
+      letter-spacing: 0.14em;
+    }
+    .dist-count {
+      font-family: monospace;
+      font-size: 8px;
+      fill: #565f89;
+    }
+    .progress-bg {
+      fill: rgba(255, 255, 255, 0.08);
+      rx: 3px;
+    }
+    .progress-easy { fill: #10b981; rx: 3px; }
+    .progress-medium { fill: #f59e0b; }
+    .progress-hard { fill: #f43f5e; rx: 3px; }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="493" height="193" x="1" y="1" class="card" />
+
+  <!-- Top Brand Row -->
+  <g transform="translate(18, 18)">
+    <rect width="36" height="36" class="lc-badge-bg" />
+    <text x="18" y="22" text-anchor="middle" dominant-baseline="middle" class="lc-badge-text">LC</text>
+    
+    <text x="48" y="14" class="title">LEETCODE</text>
+    <text x="48" y="31" class="subtitle">Problem Solving Stats</text>
+    
+    <text x="444" y="20" text-anchor="end" class="link-text">View ↗</text>
+  </g>
+
+  <!-- Solved Box (Full Width of Grid) -->
+  <g transform="translate(18, 68)">
+    <rect width="144" height="66" class="stat-box" />
+    <circle cx="16" cy="22" r="3" class="easy-dot" style="fill: #ffa116;" />
+    <text x="26" y="25" class="stat-box-label">SOLVED</text>
+    <text x="16" y="50" class="stat-box-value">${formatNum(stats.solved)}</text>
+  </g>
+
+  <!-- Easy Tile -->
+  <g transform="translate(172, 68)">
+    <rect width="94" height="42" class="stat-tile easy-tile" />
+    <circle cx="14" cy="15" r="3" class="tile-dot easy-dot" />
+    <text x="22" y="18" class="tile-label">EASY</text>
+    <text x="12" y="34" class="tile-value easy-value">${formatNum(stats.easy)}</text>
+  </g>
+
+  <!-- Medium Tile -->
+  <g transform="translate(276, 68)">
+    <rect width="94" height="42" class="stat-tile medium-tile" />
+    <circle cx="14" cy="15" r="3" class="tile-dot medium-dot" />
+    <text x="22" y="18" class="tile-label">MEDIUM</text>
+    <text x="12" y="34" class="tile-value medium-value">${formatNum(stats.medium)}</text>
+  </g>
+
+  <!-- Hard Tile -->
+  <g transform="translate(380, 68)">
+    <rect width="94" height="42" class="stat-tile hard-tile" />
+    <circle cx="14" cy="15" r="3" class="tile-dot hard-dot" />
+    <text x="22" y="18" class="tile-label">HARD</text>
+    <text x="12" y="34" class="tile-value hard-value">${formatNum(stats.hard)}</text>
+  </g>
+
+  <!-- Distribution Bar -->
+  <g transform="translate(172, 122)">
+    <text x="0" y="0" class="dist-label">DIFFICULTY DISTRIBUTION</text>
+    <text x="302" y="0" text-anchor="end" class="dist-count">${stats.easy}e · ${stats.medium}m · ${stats.hard}h</text>
+    
+    <!-- Progress Bar -->
+    <rect y="6" width="302" height="6" class="progress-bg" />
+    
+    <!-- Easy Pct -->
+    <rect y="6" width="${(302 * easyPct / 100).toFixed(1)}" height="6" class="progress-easy" />
+    
+    <!-- Medium Pct -->
+    <rect x="${(302 * easyPct / 100).toFixed(1)}" y="6" width="${(302 * mediumPct / 100).toFixed(1)}" height="6" class="progress-medium" />
+    
+    <!-- Hard Pct -->
+    <rect x="${(302 * (easyPct + mediumPct) / 100).toFixed(1)}" y="6" width="${(302 * hardPct / 100).toFixed(1)}" height="6" class="progress-hard" />
+  </g>
+</svg>`;
+}
+
+async function main() {
+  try {
+    console.log("Fetching LeetCode stats...");
+    const stats = await getLeetCodeStats();
+    console.log("Fetched stats:", stats);
+
+    const svgContent = generateSVG(stats);
+    fs.writeFileSync('leetcode_stats.svg', svgContent);
+    console.log("Generated leetcode_stats.svg successfully!");
+  } catch (error) {
+    console.error("Failed to generate LeetCode SVG:", error);
+    process.exit(1);
+  }
+}
+
+main();

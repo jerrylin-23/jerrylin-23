@@ -32,7 +32,7 @@
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jerrylin-23&layout=compact&theme=tokyonight&hide=html,css" width="100%" alt="Top Languages" />
     </td>
     <td width="50%" align="center">
-      <img src="https://leetcard.jacoblin.cool/Jerry_lin23?theme=transparent" width="100%" alt="LeetCode Stats" />
+      <img src="leetcode_stats.svg" width="100%" alt="LeetCode Stats" />
     </td>
   </tr>
 </table>
