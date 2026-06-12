@@ -115,16 +115,28 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 
 ### 🚘 **Software Engineer** @ **AutoTrader**
 *Toronto, ON (Hybrid) | Sept 2025 – Dec 2025 | Jan 2025 – Apr 2025*
+
+<details>
+<summary><b>View Role & Achievements</b></summary>
+
 * **Data Scale:** Scaled Python data pipelines on **AWS** to crawl and analyze **500K+** dynamic URLs, leveraging parallel workers and Redis caching to reduce runtime from hours to minutes.
 * **Stakeholder Analytics:** Merged search engine APIs into weekly ETL processes, storing results in **PostgreSQL** and building **Tableau** dashboards used by **20+** leadership and marketing stakeholders.
 * **ML Modeling:** Built a statistical scoring engine evaluating **20K+** articles using scikit-learn regression models to prioritize content strategy.
 * **Reliability:** Implemented retry logic, exponential backoff, and circuit breakers for external API integrations, backed by structured JSON logging.
 
+</details>
+
 ### 🎟️ **Software Engineer** @ **HeadsUp Group & iVirtual**
 *Toronto, ON | Jan 2024 – Apr 2024*
+
+<details>
+<summary><b>View Role & Achievements</b></summary>
+
 * **Database Consolidation:** Containerized (Docker) ETL pipelines on AWS to merge **4** siloed databases, saving the engineering team **300+** hours/year.
 * **Notification Engine:** Developed a SendGrid notification pipeline with queued retries for an NHL Kraken rewards pilot, maintaining **80%+** weekly engagement.
 * **User Segmentation:** Built a pipeline clustering **100+** user profiles by behavioral metrics for personalized rewards delivery.
+
+</details>
 
 ---
 
