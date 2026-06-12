@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jerrylin-23&layout=compact&theme=tokyonight&hide=html,css" width="380" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jerrylin-23&layout=compact&theme=tokyonight&hide=html,css&card_width=495" width="380" height="150" alt="Top Languages" />
   <img src="leetcode_stats.svg" width="380" height="150" alt="LeetCode Stats" />
 </p>
 
