@@ -140,11 +140,16 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 
 ---
 
-## 📊 GitHub Dashboard
+## 📊 Statistics Dashboard
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=jerrylin-23&show_icons=true&theme=tokyonight&count_private=true" width="49%" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=jerrylin-23&theme=tokyonight" width="49%" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jerrylin-23&layout=compact&theme=tokyonight" width="49%" alt="Top Languages" />
+  <img src="https://leetcard.jacoblin.cool/Jerry_lin23?theme=transparent" width="49%" alt="LeetCode Stats" />
 </p>
 
 ---
