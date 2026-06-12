@@ -81,31 +81,31 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 ## 🚀 Featured Projects
 
 ### 🧠 [DeepSeek LeetCode Fine-Tuning](https://github.com/jerrylin-23/DeepSeek-LeetCode-Oriented-Training)
-> **Python • PyTorch • Hugging Face • LoRA • Kaggle**
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /> <img src="https://img.shields.io/badge/QLoRA-bb9af3?style=flat-square" /> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" />
 * **Performance Leap:** Fine-tuned DeepSeek-Coder **6.7B** on **2,400** curated problems via QLoRA.
 * **Result-Oriented:** Achieved a **+42% accuracy boost** overall, and **+214% accuracy on hard problems** through domain-specific training data curation.
 * **Local Deployment:** Built an evaluation harness with sandboxed execution, merged LoRA adapters, and exported to GGUF for local Ollama usage.
 
 ### 🤖 [Agentic GitHub PR Reviewer](https://github.com/jerrylin-23/gh-pr-reviewer)
-> **Python • Textual • Claude Code • GitHub CLI**
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Textual-1f2328?style=flat-square" /> <img src="https://img.shields.io/badge/Claude_Code-D97706?style=flat-square&logo=anthropic&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub_CLI-181717?style=flat-square&logo=github&logoColor=white" />
 * **TUI Dashboard:** Developed a terminal user interface orchestrating local AI agents for automated PR code reviews.
 * **Non-Blocking UI:** Used `asyncio` for non-blocking workers so the terminal interface remains responsive during long AI review cycles.
 * **Security First:** Integrated native `gh` CLI auth (no raw API keys stored) and staged reviews locally so comments are never posted without explicit user confirmation.
 
 ### 📈 [Alpha Radar](https://ict-buy-the-dip.onrender.com/)
-> **Python • Flask • Pandas • TradingView Lightweight Charts**
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" /> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/TradingView-2962FF?style=flat-square&logo=tradingview&logoColor=white" />
 * **Real-time Scanning:** Vectorized pandas scanning engine to detect institutional support levels (FVGs, equal highs/lows) across **500+** tickers.
 * **Backtesting Engine:** Designed custom simulator evaluating **700+** historical trade setups across NVDA, GOOGL, and AAPL, achieving a simulated **74% win rate**.
 * **Dynamic Visuals:** Deployed with WebSocket data streams rendering interactive TradingView charts.
 
 ### 📊 [Gemini Portfolio Insights](https://ai-portfolio-analyzer.onrender.com)
-> **Python • FastAPI • Gemini API • JavaScript**
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/Gemini_API-8E75C2?style=flat-square&logo=googlegemini&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 * **Multi-Model Pipeline:** Implemented a Gemini-to-Gemini workflow where the first model digests macroeconomic context and the second executes portfolio analysis.
 * **Calendar Integration:** Auto-syncs market events (FOMC, CPI, NFP) and earnings schedules for **30+** megacap equities.
 * **Reliability:** Built a 2-key rotation system with model fallback, reducing failed request rates by **90%**.
 
 ### 📱 [IntelliCal](https://www.youtube.com/shorts/UCFAg8bHJJc)
-> **Kotlin • Jetpack Compose • Supabase • Coroutines**
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" /> <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=android&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/Coroutines-7F52FF?style=flat-square" />
 * **AI Nutrition:** Designed a Gemini vision pipeline parsing meal photos into structured JSON with **~88% accuracy** and zero parsing crashes.
 * **Gamified Retention:** Built a forest gamification system syncing real-time user progress to Supabase/PostgreSQL.
 
