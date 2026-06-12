@@ -18,24 +18,15 @@
 
 ## 📊 Statistics Dashboard
 
-<table align="center" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=jerrylin-23&show_icons=true&theme=tokyonight&count_private=true" width="100%" alt="GitHub Stats" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=jerrylin-23&theme=tokyonight" width="100%" alt="GitHub Streak" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jerrylin-23&layout=compact&theme=tokyonight&hide=html,css" width="100%" alt="Top Languages" />
-    </td>
-    <td width="50%" align="center">
-      <img src="leetcode_stats.svg" width="100%" alt="LeetCode Stats" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jerrylin-23&show_icons=true&theme=tokyonight&count_private=true" width="48.5%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jerrylin-23&theme=tokyonight" width="48.5%" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jerrylin-23&layout=compact&theme=tokyonight&hide=html,css" width="48.5%" alt="Top Languages" />
+  <img src="leetcode_stats.svg" width="48.5%" alt="LeetCode Stats" />
+</p>
 
 ---
 
