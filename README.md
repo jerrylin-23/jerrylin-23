@@ -16,6 +16,29 @@
 
 ---
 
+## 📊 Statistics Dashboard
+
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=jerrylin-23&show_icons=true&theme=tokyonight&count_private=true" width="100%" alt="GitHub Stats" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=jerrylin-23&theme=tokyonight" width="100%" alt="GitHub Streak" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jerrylin-23&layout=compact&theme=tokyonight" width="100%" alt="Top Languages" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://leetcard.jacoblin.cool/Jerry_lin23?theme=transparent" width="100%" alt="LeetCode Stats" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 👋 About Me
 I am a Computer Science (BCS) and Business Administration (BBA) double degree student at the **University of Waterloo** and **Wilfrid Laurier University**. I love building production-grade data pipelines, fine-tuning LLMs, and crafting full-stack financial/developer tools.
 
@@ -138,21 +161,7 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 
 </details>
 
----
 
-## 📊 Statistics Dashboard
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jerrylin-23&show_icons=true&theme=tokyonight&count_private=true" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jerrylin-23&theme=tokyonight" width="49%" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jerrylin-23&layout=compact&theme=tokyonight" width="49%" alt="Top Languages" />
-  <img src="https://leetcard.jacoblin.cool/Jerry_lin23?theme=transparent" width="49%" alt="LeetCode Stats" />
-</p>
-
----
 
 ## 📫 Let's Connect!
 
