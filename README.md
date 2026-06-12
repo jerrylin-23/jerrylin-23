@@ -1,98 +1,152 @@
-# Jerry Lin  
+<div align="center">
 
-📍 **Thornhill, Ontario**  
-[![Email](https://img.shields.io/badge/Email-jy3lin@uwaterloo.ca-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jy3lin@uwaterloo.ca) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/jerrylin04) 
-[![GitHub followers](https://img.shields.io/github/followers/jerrylin-23?label=Follow&style=social)](https://github.com/jerrylin-23) 
-![Profile Views](https://komarev.com/ghpvc/?username=jerrylin-23&color=brightgreen)
+# 🧑‍💻 Jerry Lin  
+### CS + Business Double Degree @ Waterloo & Laurier
+**Building at the intersection of AI, Finance, and Scalable Platforms**
 
----
+📍 Thornhill, Ontario, Canada
 
-## 👋 About Me  
-Computer Science & Business Administration student pursuing a dual degree at the **University of Waterloo** and **Wilfrid Laurier University**. I build at the intersection of AI, finance, and full-stack development.
+[![Email](https://img.shields.io/badge/Email-jy3lin%40uwaterloo.ca-89ddff?style=flat-square&logo=gmail&logoColor=1a1b26&labelColor=7aa2f7)](mailto:jy3lin@uwaterloo.ca)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-7aa2f7?style=flat-square&logo=linkedin&logoColor=1a1b26&labelColor=89ddff)](https://www.linkedin.com/in/jerrylin04)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-bb9af3?style=flat-square&logo=google-chrome&logoColor=1a1b26&labelColor=ff007c)](https://jerrylin23.vercel.app/)
+[![GitHub Followers](https://img.shields.io/github/followers/jerrylin-23?label=Followers&style=flat-square&color=ff007c&logo=github)](https://github.com/jerrylin-23)
+![Profile Views](https://komarev.com/ghpvc/?username=jerrylin-23&color=7aa2f7&style=flat-square&label=Profile+Views)
 
-**Currently seeking:** SWE/ML co-op opportunities for **Fall 2026**
-
----
-
-## 🛠️ Technical Skills  
-
-| Category | Technologies |
-|----------|-------------|
-| **Languages** | Python, C/C++, SQL, JavaScript/TypeScript, Java, HTML/CSS, R, Bash |
-| **Frameworks** | React, Next.js, Node.js, Express.js, Flask, FastAPI, Vue.js |
-| **ML/AI** | PyTorch, Hugging Face Transformers, LoRA/QLoRA, Scikit-learn, pandas, NumPy |
-| **Cloud & DevOps** | AWS (Lambda, S3, EC2), Docker, Git, Google Cloud Platform |
-| **Data** | PostgreSQL, MongoDB, Matplotlib, yfinance |
+</div>
 
 ---
 
-## 🚀 Featured Projects  
+## 👋 About Me
+I am a Computer Science (BCS) and Business Administration (BBA) double degree student at the **University of Waterloo** and **Wilfrid Laurier University**. I love building production-grade data pipelines, fine-tuning LLMs, and crafting full-stack financial/developer tools.
 
-### [DeepSeek LeetCode Fine-Tuning](https://github.com/jerrylin-23/DeepSeek-LeetCode-Oriented-Training) ↗
-*Python, PyTorch, Hugging Face, LoRA, Kaggle*
-- Fine-tuned DeepSeek-Coder **6.7B** on **2,400** curated LeetCode problems using QLoRA (4-bit quantization)
-- **+42% accuracy** over base model overall; **+214% on hard problems** through domain-specific data curation
-- Built evaluation harness with sandboxed code execution, scoring **100** problems across 3 difficulty tiers
-- Merged LoRA adapters and exported to GGUF for local Ollama deployment
-
-### [Agentic GitHub PR Reviewer](https://github.com/jerrylin-23/gh-pr-reviewer) ↗
-*Python, Textual, Claude Code, GitHub CLI*
-- Built a terminal TUI and CLI for AI-powered GitHub PR reviews using local AI agents (Claude, Antigravity)
-- Async non-blocking workers keep the UI responsive while AI generates full markdown reviews
-- Live auto-complete for repos and PRs; native `gh` CLI auth — no raw API keys required
-- Safe-by-default: reviews staged locally and never posted until explicitly confirmed
-
-### [Alpha Radar](https://ict-buy-the-dip.onrender.com/) ↗
-*Python, Flask, Pandas, TradingView Lightweight Charts*
-- Built real-time signal scanner detecting ICT patterns (FVGs, EQH/EQL) across **500+** tickers using vectorized pandas evaluation
-- Backtesting engine with dynamic stop-loss/take-profit achieved **74% win rate** across **700+** simulated trades on NVDA, GOOGL, AAPL
-- Deployed on Render with WebSocket streaming and interactive TradingView charts
-- yfinance pipeline pulling **2 years** of OHLCV data for **500+** symbols
-
-### [Gemini Portfolio Insights](https://ai-portfolio-analyzer.onrender.com) ↗
-*Python, FastAPI, Gemini API, JavaScript*
-- Built full-stack portfolio platform with FastAPI backend integrating yfinance, ForexFactory, and Gemini APIs
-- Designed **Gemini-to-Gemini pipeline**: first model summarizes market context, second analyzes portfolio with insights
-- Integrated economic calendar (FOMC, CPI, NFP) and earnings tracking for **30+** megacap stocks
-- Implemented 2-key API rotation with model fallback, reducing failed requests by **90%**
-
-### [IntelliCal](https://www.youtube.com/shorts/UCFAg8bHJJc) ↗
-*Kotlin, Jetpack Compose, Supabase, Coroutines*
-- Built Android app using Jetpack Compose and MVVM, cleanly separating UI from business logic
-- AI vision pipeline parses food photos into structured JSON via prompt engineering — **~88% accuracy**, zero parsing crashes
-- Gamification system driving daily retention; async state management via Kotlin Coroutines syncing to PostgreSQL backend
+* 🔍 **Currently seeking:** SWE / ML Engineer Co-op opportunities for **Fall 2026**.
+* ⚡ **Fun Fact:** I fine-tuned a 6.7B parameter LLM on my laptop and Kaggle just to help me solve LeetCode problems faster.
 
 ---
 
-## 💼 Professional Experience  
+## 🛠️ Technical Skills
 
-### Software Engineer @ AutoTrader
-*Jan 2025 – Apr 2025 | Toronto, ON*
-- Built Python data pipelines on **AWS** to crawl and analyze **500K+** dynamic URLs; Redis caching and parallel workers cut runtime from hours to minutes
-- Integrated Ahrefs and Google Search Console APIs into weekly ETL jobs, storing results in **PostgreSQL** and surfacing them through **Tableau** dashboards used by **20+** stakeholders
-- Developed scoring pipeline evaluating **20K+** articles using scikit-learn regression and cohort models to guide editorial strategy
-- Added retry logic, exponential backoff, and circuit breakers to third-party API calls; structured JSON logging for failure tracing
-
-### Software Engineer @ HeadsUp Group & iVirtual
-*Jan 2024 – Apr 2024 | Toronto, ON*
-- Deployed containerized ETL services (Python, Node.js, Docker) on AWS to merge **4** siloed databases — saved **300+** engineering hours/year
-- Built SendGrid notification system with queued retries for NHL Seattle Kraken rewards pilot; sustained **80%+** weekly engagement
-- Segmentation pipeline clustered **100+** user profiles by behavioral features to personalize content delivery
-
----
-
-## 📈 GitHub Stats  
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jerrylin-23&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" />
+<details open>
+<summary><b>💻 Languages & Core Dev</b></summary>
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" />
+  <img src="https://img.shields.io/badge/Shell_Script-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
 </p>
+</details>
+
+<details open>
+<summary><b>🤖 Machine Learning & AI</b></summary>
+<p align="left">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+</p>
+</details>
+
+<details open>
+<summary><b>🌐 Frameworks & Platforms</b></summary>
+<p align="left">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
+</p>
+</details>
+
+<details open>
+<summary><b>⚙️ Cloud, Data & DevOps</b></summary>
+<p align="left">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white" />
+</p>
+</details>
+
+---
+
+## 🚀 Featured Projects
+
+### 🧠 [DeepSeek LeetCode Fine-Tuning](https://github.com/jerrylin-23/DeepSeek-LeetCode-Oriented-Training)
+> **Python • PyTorch • Hugging Face • LoRA • Kaggle**
+* **Performance Leap:** Fine-tuned DeepSeek-Coder **6.7B** on **2,400** curated problems via QLoRA.
+* **Result-Oriented:** Achieved a **+42% accuracy boost** overall, and **+214% accuracy on hard problems** through domain-specific training data curation.
+* **Local Deployment:** Built an evaluation harness with sandboxed execution, merged LoRA adapters, and exported to GGUF for local Ollama usage.
+
+### 🤖 [Agentic GitHub PR Reviewer](https://github.com/jerrylin-23/gh-pr-reviewer)
+> **Python • Textual • Claude Code • GitHub CLI**
+* **TUI Dashboard:** Developed a terminal user interface orchestrating local AI agents for automated PR code reviews.
+* **Non-Blocking UI:** Used `asyncio` for non-blocking workers so the terminal interface remains responsive during long AI review cycles.
+* **Security First:** Integrated native `gh` CLI auth (no raw API keys stored) and staged reviews locally so comments are never posted without explicit user confirmation.
+
+### 📈 [Alpha Radar](https://ict-buy-the-dip.onrender.com/)
+> **Python • Flask • Pandas • TradingView Lightweight Charts**
+* **Real-time Scanning:** Vectorized pandas scanning engine to detect institutional support levels (FVGs, equal highs/lows) across **500+** tickers.
+* **Backtesting Engine:** Designed custom simulator evaluating **700+** historical trade setups across NVDA, GOOGL, and AAPL, achieving a simulated **74% win rate**.
+* **Dynamic Visuals:** Deployed with WebSocket data streams rendering interactive TradingView charts.
+
+### 📊 [Gemini Portfolio Insights](https://ai-portfolio-analyzer.onrender.com)
+> **Python • FastAPI • Gemini API • JavaScript**
+* **Multi-Model Pipeline:** Implemented a Gemini-to-Gemini workflow where the first model digests macroeconomic context and the second executes portfolio analysis.
+* **Calendar Integration:** Auto-syncs market events (FOMC, CPI, NFP) and earnings schedules for **30+** megacap equities.
+* **Reliability:** Built a 2-key rotation system with model fallback, reducing failed request rates by **90%**.
+
+### 📱 [IntelliCal](https://www.youtube.com/shorts/UCFAg8bHJJc)
+> **Kotlin • Jetpack Compose • Supabase • Coroutines**
+* **AI Nutrition:** Designed a Gemini vision pipeline parsing meal photos into structured JSON with **~88% accuracy** and zero parsing crashes.
+* **Gamified Retention:** Built a forest gamification system syncing real-time user progress to Supabase/PostgreSQL.
+
+---
+
+## 💼 Professional Experience
+
+### 🚘 **Software Engineer** @ **AutoTrader**
+*Toronto, ON (Hybrid) | Jan 2025 – Apr 2025*
+* **Data Scale:** Scaled Python data pipelines on **AWS** to crawl and analyze **500K+** dynamic URLs, leveraging parallel workers and Redis caching to reduce runtime from hours to minutes.
+* **Stakeholder Analytics:** Merged search engine APIs into weekly ETL processes, storing results in **PostgreSQL** and building **Tableau** dashboards used by **20+** leadership and marketing stakeholders.
+* **ML Modeling:** Built a statistical scoring engine evaluating **20K+** articles using scikit-learn regression models to prioritize content strategy.
+* **Reliability:** Implemented retry logic, exponential backoff, and circuit breakers for external API integrations, backed by structured JSON logging.
+
+### 🎟️ **Software Engineer** @ **HeadsUp Group & iVirtual**
+*Toronto, ON | Jan 2024 – Apr 2024*
+* **Database Consolidation:** Containerized (Docker) ETL pipelines on AWS to merge **4** siloed databases, saving the engineering team **300+** hours/year.
+* **Notification Engine:** Developed a SendGrid notification pipeline with queued retries for an NHL Kraken rewards pilot, maintaining **80%+** weekly engagement.
+* **User Segmentation:** Built a pipeline clustering **100+** user profiles by behavioral metrics for personalized rewards delivery.
+
+---
+
+## 📊 GitHub Dashboard
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jerrylin-23&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=jerrylin-23&show_icons=true&theme=tokyonight&count_private=true" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jerrylin-23&theme=tokyonight" width="49%" alt="GitHub Streak" />
 </p>
 
 ---
 
-## 📫 Let's Connect!  
-- 💼 Open to **SWE, Data, and ML co-op** opportunities for Fall 2026
-- 🤝 Interested in open-source contributions and collaborations
-- 📧 [jy3lin@uwaterloo.ca](mailto:jy3lin@uwaterloo.ca)
+## 📫 Let's Connect!
+
+<p align="center">
+  <a href="mailto:jy3lin@uwaterloo.ca">
+    <img src="https://img.shields.io/badge/Email-jy3lin@uwaterloo.ca-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/jerrylin04">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://jerrylin23.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-bb9af3?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+  </a>
+</p>
