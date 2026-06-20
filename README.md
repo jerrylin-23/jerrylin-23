@@ -2,8 +2,6 @@
 
 <img src="banner.svg" width="100%" alt="Jerry Lin — Software Engineer" />
 
-
-# 🧑‍💻 Jerry Lin
 ### CS + Business Double Degree @ Waterloo & Laurier
 **Building at the intersection of AI, Finance, and Scalable Platforms**
 
@@ -124,6 +122,12 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 
 ## 🚀 Featured Projects
 
+### 🔀 [tokenmaxxing](https://github.com/jerrylin-23/tokenmaxxing)
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" /> <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" /> <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" /> <img src="https://img.shields.io/badge/Claude_Code-D97706?style=flat-square&logo=anthropic&logoColor=white" />
+* **Agentic Handoff Portal:** macOS desktop + CLI bridge that lets you plan on ChatGPT Web and execute with a local CLI agent (Codex, Claude Code, Antigravity).
+* **MCP over the Wire:** Exposes a local Model Context Protocol server securely over Tailscale Funnel so remote chat sessions can drive on-device tooling.
+* **Token Efficiency:** Offloads heavy planning to the browser frontend, reserving local agent context for execution.
+
 ### 🧠 [DeepSeek LeetCode Fine-Tuning](https://github.com/jerrylin-23/DeepSeek-LeetCode-Oriented-Training)
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /> <img src="https://img.shields.io/badge/QLoRA-bb9af3?style=flat-square" /> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" />
 * **Performance Leap:** Fine-tuned DeepSeek-Coder **6.7B** on **2,400** curated problems via QLoRA.
@@ -195,8 +199,4 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
   </a>
 </p>
 
-<div align="center">
-<sub>
-<b>Keywords:</b> Machine Learning Engineer · LLM Fine-Tuning · QLoRA · PyTorch · RAG · AI Agents · Full-Stack Developer · Python · TypeScript · React · Next.js · FastAPI · Data Engineering · AWS · Docker · Quantitative Finance · SWE Co-op Fall 2026
-</sub>
-</div>
+<!-- Keywords: Machine Learning Engineer · LLM Fine-Tuning · QLoRA · PyTorch · RAG · AI Agents · Full-Stack Developer · Python · TypeScript · React · Next.js · FastAPI · Data Engineering · AWS · Docker · Quantitative Finance · SWE Co-op Fall 2026 -->
