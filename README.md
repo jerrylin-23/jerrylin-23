@@ -1,14 +1,9 @@
 <div align="center">
 
-```text
-     ██╗███████╗██████╗ ██████╗ ██╗   ██╗   ██╗     ██╗███╗   ██╗
-     ██║██╔════╝██╔══██╗██╔══██╗╚██╗ ██╔╝   ██║     ██║████╗  ██║
-     ██║█████╗  ██████╔╝██████╔╝ ╚████╔╝    ██║     ██║██╔██╗ ██║
-██   ██║██╔══╝  ██╔══██╗██╔══██╗  ╚██╔╝     ██║     ██║██║╚██╗██║
-╚█████╔╝███████╗██║  ██║██║  ██║   ██║       ███████╗██║██║ ╚████║
- ╚════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝       ╚══════╝╚═╝╚═╝  ╚═══╝
-                                          Software Engineer · SWE
-```
+<img src="banner.svg" width="100%" alt="Jerry Lin — Software Engineer" />
+
+
+# 🧑‍💻 Jerry Lin
 ### CS + Business Double Degree @ Waterloo & Laurier
 **Building at the intersection of AI, Finance, and Scalable Platforms**
 
