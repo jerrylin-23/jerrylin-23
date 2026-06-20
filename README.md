@@ -123,7 +123,7 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 ## 🚀 Featured Projects
 
 ### 🔀 [tokenmaxxing](https://github.com/jerrylin-23/tokenmaxxing)
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" /> <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" /> <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" /> <img src="https://img.shields.io/badge/Claude_Code-D97706?style=flat-square&logo=anthropic&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" /> <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" /> <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" /> <img src="https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white" />
 * **Agentic Handoff Portal:** macOS desktop + CLI bridge that lets you plan on ChatGPT Web and execute with a local CLI agent (Codex, Claude Code, Antigravity).
 * **MCP over the Wire:** Exposes a local Model Context Protocol server securely over Tailscale Funnel so remote chat sessions can drive on-device tooling.
 * **Token Efficiency:** Offloads heavy planning to the browser frontend, reserving local agent context for execution.
