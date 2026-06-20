@@ -43,7 +43,7 @@
   </tr>
 </table>
 
-<img src="https://github-profile-trophy.vercel.app/?username=jerrylin-23&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%" alt="GitHub Trophies" />
+
 
 </div>
 
