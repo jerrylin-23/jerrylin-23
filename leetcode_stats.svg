@@ -125,7 +125,7 @@
     <rect width="144" height="66" class="stat-box" />
     <circle cx="16" cy="22" r="3" class="easy-dot" style="fill: #ffa116;" />
     <text x="26" y="25" class="stat-box-label">SOLVED</text>
-    <text x="16" y="50" class="stat-box-value">104</text>
+    <text x="16" y="50" class="stat-box-value">106</text>
   </g>
 
   <!-- Easy Tile -->
@@ -141,7 +141,7 @@
     <rect width="94" height="42" class="stat-tile medium-tile" />
     <circle cx="14" cy="15" r="3" class="tile-dot medium-dot" />
     <text x="22" y="18" class="tile-label">MEDIUM</text>
-    <text x="12" y="34" class="tile-value medium-value">75</text>
+    <text x="12" y="34" class="tile-value medium-value">77</text>
   </g>
 
   <!-- Hard Tile -->
@@ -155,18 +155,18 @@
   <!-- Distribution Bar -->
   <g transform="translate(172, 122)">
     <text x="0" y="0" class="dist-label">DIFFICULTY DISTRIBUTION</text>
-    <text x="302" y="0" text-anchor="end" class="dist-count">28e · 75m · 1h</text>
+    <text x="302" y="0" text-anchor="end" class="dist-count">28e · 77m · 1h</text>
     
     <!-- Progress Bar -->
     <rect y="6" width="302" height="6" class="progress-bg" />
     
     <!-- Easy Pct -->
-    <rect y="6" width="81.3" height="6" class="progress-easy" />
+    <rect y="6" width="79.8" height="6" class="progress-easy" />
     
     <!-- Medium Pct -->
-    <rect x="81.3" y="6" width="217.8" height="6" class="progress-medium" />
+    <rect x="79.8" y="6" width="219.4" height="6" class="progress-medium" />
     
     <!-- Hard Pct -->
-    <rect x="299.1" y="6" width="2.9" height="6" class="progress-hard" />
+    <rect x="299.2" y="6" width="2.8" height="6" class="progress-hard" />
   </g>
 </svg>
