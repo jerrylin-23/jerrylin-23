@@ -140,13 +140,13 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 * **Non-Blocking UI:** Used `asyncio` workers so the interface stays responsive during long AI review cycles.
 * **Security First:** Integrated native `gh` CLI auth (no raw API keys stored) and staged reviews locally so comments are never posted without explicit confirmation.
 
-### 📈 [Alpha Radar](https://ict-buy-the-dip.onrender.com/)
+### 📈 [Alpha Radar](https://alpha-radar-b725ddaf6ce0.herokuapp.com/)
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" /> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/TradingView-2962FF?style=flat-square&logo=tradingview&logoColor=white" />
 * **Real-time Scanning:** Vectorized pandas engine detecting institutional support levels (FVGs, equal highs/lows) across **500+** tickers.
 * **Backtesting Engine:** Custom simulator evaluating **700+** historical setups across NVDA, GOOGL, and AAPL, hitting a simulated **74% win rate**.
 * **Dynamic Visuals:** Deployed with WebSocket data streams rendering interactive TradingView charts.
 
-### 📊 [Gemini Portfolio Insights](https://ai-portfolio-analyzer.onrender.com)
+### 📊 [Gemini Portfolio Insights](https://ai-portfolio-analyzer-ten.vercel.app/)
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/Gemini_API-8E75C2?style=flat-square&logo=googlegemini&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 * **Multi-Model Pipeline:** Gemini-to-Gemini workflow where the first model digests macroeconomic context and the second runs portfolio analysis.
 * **Calendar Integration:** Auto-syncs market events (FOMC, CPI, NFP) and earnings schedules for **30+** megacap equities.
