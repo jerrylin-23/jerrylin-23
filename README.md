@@ -27,7 +27,6 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=jerrylin-23&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="100%" alt="GitHub Stats" />
     </td>
     <td width="50%" align="center">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=jerrylin-23&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" />
@@ -35,7 +34,6 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jerrylin-23&layout=compact&theme=tokyonight&hide_border=true&hide=html,css&card_width=495" width="100%" alt="Top Languages" />
     </td>
     <td width="50%" align="center">
       <img src="leetcode_stats.svg" width="100%" alt="LeetCode Stats" />
