@@ -24,15 +24,24 @@
 ## 📊 Statistics Dashboard
 
 <div align="center">
-<img src="github_stats.svg" width="495" alt="GitHub Stats" />
-
-<img src="top_languages.svg" width="495" alt="Top Languages" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jerrylin-23&theme=tokyonight&hide_border=true" width="70%" alt="GitHub Streak" />
-
-<img src="leetcode_stats.svg" width="495" alt="LeetCode Stats" />
-
-
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="github_stats.svg" width="100%" alt="GitHub Stats" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=jerrylin-23&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="top_languages.svg" width="100%" alt="Top Languages" />
+    </td>
+    <td width="50%" align="center">
+      <img src="leetcode_stats.svg" width="100%" alt="LeetCode Stats" />
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -143,6 +152,11 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 ---
 
 ## 💼 Professional Experience
+
+### 🏦 Incoming Software Engineer @ RBC Wealth Management
+*Toronto, ON — Sept 2026 – Dec 2026*
+
+* **Cloud Platforms:** Engineering an interactive financial forecasting engine and an AI-driven advisor assistant using React, microservices, AWS, and OpenShift.
 
 ### 🚘 Software Engineer @ AutoTrader
 *Toronto, ON (Hybrid) — Sept 2025 – Dec 2025 · Jan 2025 – Apr 2025*
