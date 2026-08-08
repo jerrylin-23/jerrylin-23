@@ -27,11 +27,14 @@ jobs:
       - name: Generate LeetCode SVG
         run: node update_leetcode.js
 
+      - name: Generate GitHub stats SVGs
+        run: node update_github_stats.js
+
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add leetcode_stats.svg
+          git add leetcode_stats.svg github_stats.svg top_languages.svg
           if git diff --staged --quiet; then
             echo "No changes in LeetCode stats."
           else

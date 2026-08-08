@@ -6,7 +6,7 @@
 **Building at the intersection of AI, Finance, and Scalable Platforms**
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7AA2F7&center=true&vCenter=true&width=620&lines=ML+Engineer+%2B+Full-Stack+Developer;Fine-tuning+LLMs+%26+building+AI+agents;Production+data+pipelines+at+scale;Open+to+SWE+%2F+ML+Co-op+%E2%80%94+Fall+2026" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7AA2F7&center=true&vCenter=true&width=620&lines=ML+Engineer+%2B+Full-Stack+Developer;Fine-tuning+LLMs+%26+building+AI+agents;Production+data+pipelines+at+scale;Open+to+SWE+%2F+ML+Co-op+%E2%80%94+Winter+2027" alt="Typing SVG" />
 </a>
 
 📍 Thornhill, Ontario, Canada
@@ -24,22 +24,13 @@
 ## 📊 Statistics Dashboard
 
 <div align="center">
-<table>
-  <tr>
-    <td width="50%" align="center">
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=jerrylin-23&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-    </td>
-    <td width="50%" align="center">
-      <img src="leetcode_stats.svg" width="100%" alt="LeetCode Stats" />
-    </td>
-  </tr>
-</table>
+<img src="github_stats.svg" width="495" alt="GitHub Stats" />
+
+<img src="top_languages.svg" width="495" alt="Top Languages" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=jerrylin-23&theme=tokyonight&hide_border=true" width="70%" alt="GitHub Streak" />
+
+<img src="leetcode_stats.svg" width="495" alt="LeetCode Stats" />
 
 <img src="https://github-profile-trophy.vercel.app/?username=jerrylin-23&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%" alt="GitHub Trophies" />
 
@@ -52,7 +43,7 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 
 * 🔭 **Currently building:** AI agents, LLM fine-tuning pipelines, and quantitative trading tools.
 * 🌱 **Currently learning:** distributed training, retrieval-augmented generation, and low-level performance optimization.
-* 🔍 **Currently seeking:** SWE / ML Engineer Co-op opportunities for **Fall 2026**.
+* 🔍 **Currently seeking:** SWE / ML Engineer Co-op opportunities for **Winter 2027**.
 * ⚡ **Fun Fact:** I fine-tuned a 6.7B parameter LLM on my laptop and Kaggle just to solve LeetCode problems faster.
 
 ---
@@ -79,7 +70,6 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 <p align="left">
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
   <img src="https://img.shields.io/badge/QLoRA-bb9af3?style=flat-square" />
   <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
   <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
@@ -129,7 +119,7 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 ### 🧠 [DeepSeek LeetCode Fine-Tuning](https://github.com/jerrylin-23/DeepSeek-LeetCode-Oriented-Training)
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /> <img src="https://img.shields.io/badge/QLoRA-bb9af3?style=flat-square" /> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" />
 * **Performance Leap:** Fine-tuned DeepSeek-Coder **6.7B** on **2,400** curated problems via QLoRA.
-* **Result-Oriented:** Achieved a **+42% accuracy boost** overall and **+214% on hard problems** through domain-specific data curation.
+* **Evaluation:** Increased pass@1 from **24% to 34%** on a fixed **100-problem** execution benchmark; targeted data curation increased hard-problem pass@1 from **9.1% to 28.6%**.
 * **Local Deployment:** Built an evaluation harness with sandboxed execution, merged LoRA adapters, and exported to GGUF for local Ollama inference.
 
 ### 🤖 [Agentic GitHub PR Reviewer](https://github.com/jerrylin-23/gh-pr-reviewer)
@@ -142,18 +132,13 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" /> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/TradingView-2962FF?style=flat-square&logo=tradingview&logoColor=white" />
 * **Real-time Scanning:** Vectorized pandas engine detecting institutional support levels (FVGs, equal highs/lows) across **500+** tickers.
 * **Backtesting Engine:** Custom simulator evaluating **700+** historical setups across NVDA, GOOGL, and AAPL, hitting a simulated **74% win rate**.
-* **Dynamic Visuals:** Deployed with WebSocket data streams rendering interactive TradingView charts.
-
-### 📊 [Gemini Portfolio Insights](https://ai-portfolio-analyzer-ten.vercel.app/)
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/Gemini_API-8E75C2?style=flat-square&logo=googlegemini&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-* **Multi-Model Pipeline:** Gemini-to-Gemini workflow where the first model digests macroeconomic context and the second runs portfolio analysis.
-* **Calendar Integration:** Auto-syncs market events (FOMC, CPI, NFP) and earnings schedules for **30+** megacap equities.
-* **Reliability:** Built a 2-key rotation system with model fallback, reducing failed request rates by **90%**.
+* **Dynamic Visuals:** Deployed with real-time TradingView chart rendering backed by a yfinance data pipeline.
 
 ### 📱 [IntelliCal](https://www.youtube.com/shorts/UCFAg8bHJJc)
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" /> <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=android&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/Coroutines-7F52FF?style=flat-square" />
-* **AI Nutrition:** Gemini vision pipeline parsing meal photos into structured JSON with **~88% accuracy** and zero parsing crashes.
-* **Gamified Retention:** Forest gamification system syncing real-time user progress to Supabase/PostgreSQL.
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" /> <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=android&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/Gemini_Vision-8E75C2?style=flat-square&logo=googlegemini&logoColor=white" />
+* **AI Nutrition:** Gemini vision pipeline converting meal photos into structured nutrition estimates with schema-constrained output and retry handling.
+* **App Architecture:** Android app built with Jetpack Compose and MVVM, with asynchronous state management through Kotlin Coroutines.
+* **Gamified Retention:** Forest gamification system syncing user progress to a PostgreSQL backend.
 
 ---
 
@@ -197,4 +182,4 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
   </a>
 </p>
 
-<!-- Keywords: Machine Learning Engineer · LLM Fine-Tuning · QLoRA · PyTorch · RAG · AI Agents · Full-Stack Developer · Python · TypeScript · React · Next.js · FastAPI · Data Engineering · AWS · Docker · Quantitative Finance · SWE Co-op Fall 2026 -->
+<!-- Keywords: Machine Learning Engineer · LLM Fine-Tuning · QLoRA · PyTorch · AI Agents · Full-Stack Developer · Python · TypeScript · React · Next.js · FastAPI · Data Engineering · AWS · Docker · Quantitative Finance · SWE Co-op Winter 2027 -->

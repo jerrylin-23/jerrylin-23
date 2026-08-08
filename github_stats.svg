@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
+  <style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,sans-serif}.card{fill:#1a1b26;stroke:#1f2328}.title{fill:#7aa2f7;font-size:11px;letter-spacing:2px}.label{fill:#565f89;font-size:10px}.value{fill:#c0caf5;font-size:22px;font-weight:700}.muted{fill:#a9b1d6;font-size:11px}</style>
+  <rect class="card" x="0.5" y="0.5" width="494" height="194" rx="12"/>
+  <text class="title" x="24" y="31">GITHUB STATS</text>
+<text class="label" x="24" y="78">Repositories</text><text class="value" x="24" y="111">13</text><text class="label" x="179" y="78">Followers</text><text class="value" x="179" y="111">0</text><text class="label" x="334" y="78">Following</text><text class="value" x="334" y="111">0</text><text class="muted" x="24" y="157">Public profile activity for github.com/jerrylin-23</text>
+</svg>
