@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="banner.svg" width="100%" alt="Jerry Lin — Software Engineer" />
+<img src="banner.svg" width="100%" alt="Jerry Lin, Software Engineer" />
 
 ### CS + Business Double Degree @ Waterloo & Laurier
-**Building at the intersection of AI, Finance, and Scalable Platforms**
+**Building cloud services, market data systems, and AI developer tools**
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7AA2F7&center=true&vCenter=true&width=620&lines=ML+Engineer+%2B+Full-Stack+Developer;Fine-tuning+LLMs+%26+building+AI+agents;Production+data+pipelines+at+scale;Open+to+SWE+%2F+ML+Co-op+%E2%80%94+Winter+2027" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=7AA2F7&center=true&vCenter=true&width=620&lines=Software+Engineer+Intern+at+RBC;C%2B%2B+order+books+%26+streaming+market+data;AI+developer+tools+%26+LLM+fine-tuning;Open+to+SWE+%2F+ML+Co-op+%7C+Winter+2027" alt="Typing SVG" />
 </a>
 
-📍 Thornhill, Ontario, Canada
+📍 Toronto, Ontario, Canada
 
 [![Email](https://img.shields.io/badge/Email-jy3lin%40uwaterloo.ca-7dcfff?style=flat-square&logo=gmail&logoColor=white&labelColor=1a1b26)](mailto:jy3lin@uwaterloo.ca)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-7aa2f7?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1b26)](https://www.linkedin.com/in/jerrylin04)
@@ -48,12 +48,11 @@
 ---
 
 ## 👋 About Me
-I am a Computer Science (BCS) and Business Administration (BBA) double degree student at the **University of Waterloo** and **Wilfrid Laurier University**. I build production-grade data pipelines, fine-tune large language models, and ship full-stack financial and developer tools end to end — from model training to deployment.
+I study **Computer Science at the University of Waterloo** and **Business Administration at Wilfrid Laurier University**. I work as a **Software Engineer Intern at RBC Wealth Management**, building cloud services and data-access tools for AI agents. My projects include streaming market data systems, AI code review tools, and LLM fine-tuning.
 
-* 🔭 **Currently building:** AI agents, LLM fine-tuning pipelines, and quantitative trading tools.
-* 🌱 **Currently learning:** distributed training, retrieval-augmented generation, and low-level performance optimization.
-* 🔍 **Currently seeking:** SWE / ML Engineer Co-op opportunities for **Winter 2027**.
-* ⚡ **Fun Fact:** I fine-tuned a 6.7B parameter LLM on my laptop and Kaggle just to solve LeetCode problems faster.
+* 🏦 **Current work:** AWS and OpenShift services, REST and GraphQL APIs, and a migration to official Snowflake SDKs.
+* 🔭 **Recent project:** Prediction Markets Order Flow, with a C++20 order-book engine and durable market data capture.
+* 🔍 **Seeking:** SWE / ML Engineer Co-op opportunities for **Winter 2027**.
 
 ---
 
@@ -69,7 +68,6 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" />
   <img src="https://img.shields.io/badge/Shell_Script-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" />
 </p>
 </details>
@@ -92,9 +90,11 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 <p align="left">
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" />
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastMCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" />
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
   <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=android&logoColor=white" />
 </p>
@@ -104,8 +104,12 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 <summary><b>⚙️ Cloud, Data & DevOps</b></summary>
 <p align="left">
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redpanda-E44030?style=flat-square" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
@@ -119,58 +123,68 @@ I am a Computer Science (BCS) and Business Administration (BBA) double degree st
 
 ## 🚀 Featured Projects
 
-### 🔀 [Tokenmaxxing](https://github.com/jerrylin-23/tokenmaxxing)
+### 📡 [Prediction Markets Order Flow](https://github.com/jerrylin-23/pm-data-platform)
+<img src="https://img.shields.io/badge/C%2B%2B20-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Kafka%20%2F%20Redpanda-231F20?style=flat-square&logo=apachekafka&logoColor=white" /> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+* **Order-book engine:** Reached **234K updates/s** at **1,000 levels per side**, **12×** the Python dictionary reference throughput in a local benchmark.
+* **Live capture:** Observed **127 book states/s** across **8 Polymarket markets** and **16 books** in a live capture run.
+* **Data pipeline:** Built durable SQLite capture, transactional Kafka workers, sequence-gap recovery, and a FastAPI/React dashboard.
+
+### 🔀 [MCP Handoff Portal (Tokenmaxxing)](https://github.com/jerrylin-23/tokenmaxxing)
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" /> <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" /> <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" /> <img src="https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white" />
-* **Agentic Handoff Portal:** macOS desktop + CLI bridge that lets you plan on ChatGPT Web and execute with a local CLI agent (Codex, Claude Code, Antigravity).
-* **MCP over the Wire:** Exposes a local Model Context Protocol server securely over Tailscale Funnel so remote chat sessions can drive on-device tooling.
-* **Token Efficiency:** Offloads heavy planning to the browser frontend, reserving local agent context for execution.
+* **Plan to code:** Built a desktop tool that turns ChatGPT Web research and planning into structured Markdown handoff files for Codex CLI.
+* **Workspace access:** Exposed Git state and files through **5 FastMCP tools** over Tailscale Funnel, scoped to one granted workspace.
+* **Execution controls:** Added permission checks on every call, path-traversal blocking, and single-use local approvals tied to SHA-256 plan hashes.
 
 ### 🧠 [DeepSeek LeetCode Fine-Tuning](https://github.com/jerrylin-23/DeepSeek-LeetCode-Oriented-Training)
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /> <img src="https://img.shields.io/badge/QLoRA-bb9af3?style=flat-square" /> <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" />
-* **Performance Leap:** Fine-tuned DeepSeek-Coder **6.7B** on **2,400** curated problems via QLoRA.
-* **Evaluation:** Increased pass@1 from **24% to 34%** on a fixed **100-problem** execution benchmark; targeted data curation increased hard-problem pass@1 from **9.1% to 28.6%**.
+* **Model training:** Fine-tuned DeepSeek-Coder **6.7B** on **2,400** curated problems via QLoRA.
+* **Evaluation:** Increased pass@1 from **24% to 34%** on a fixed **100-problem** execution benchmark; hard-problem pass@1 reached **28.6%**.
 * **Local Deployment:** Built an evaluation harness with sandboxed execution, merged LoRA adapters, and exported to GGUF for local Ollama inference.
 
 ### 🤖 [Agentic GitHub PR Reviewer](https://github.com/jerrylin-23/gh-pr-reviewer)
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Textual-1f2328?style=flat-square" /> <img src="https://img.shields.io/badge/Claude_Code-D97706?style=flat-square&logo=anthropic&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub_CLI-181717?style=flat-square&logo=github&logoColor=white" />
-* **TUI Dashboard:** Built a terminal interface orchestrating local AI agents for automated PR code reviews.
-* **Non-Blocking UI:** Used `asyncio` workers so the interface stays responsive during long AI review cycles.
-* **Security First:** Integrated native `gh` CLI auth (no raw API keys stored) and staged reviews locally so comments are never posted without explicit confirmation.
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub_CLI-181717?style=flat-square&logo=github&logoColor=white" />
+* **Parallel review:** Cut review time **2.2×** with **3 AI agents** reviewing in parallel and a moderator that checks findings against the diff, filters false positives, and merges duplicates.
+* **Desktop interface:** Built an Electron macOS app with React and TypeScript, showing findings by severity beside code diffs.
+* **Review controls:** Added Python thread-pool fallbacks for agent or moderator failures and human approval before GitHub CLI posts comments.
 
 ### 📈 [Alpha Radar](https://alpha-radar-b725ddaf6ce0.herokuapp.com/)
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" /> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" /> <img src="https://img.shields.io/badge/TradingView-2962FF?style=flat-square&logo=tradingview&logoColor=white" />
-* **Real-time Scanning:** Vectorized pandas engine detecting institutional support levels (FVGs, equal highs/lows) across **500+** tickers.
-* **Backtesting Engine:** Custom simulator evaluating **700+** historical setups across NVDA, GOOGL, and AAPL, hitting a simulated **74% win rate**.
-* **Dynamic Visuals:** Deployed with real-time TradingView chart rendering backed by a yfinance data pipeline.
+* **Market scanner:** Built a pandas and NumPy scanner over **500+** S&P 500 and Nasdaq 100 tickers using yfinance data to detect fair value gaps and equal highs and lows.
+* **Historical simulation:** Recorded a **74% simulated win rate** across **700+** historical setups on NVDA, GOOGL, and AAPL.
+* **Dashboard:** Deployed a React/TypeScript interface with TradingView charts and WebSocket updates through a Flask API.
 
-### 📱 [IntelliCal](https://www.youtube.com/shorts/UCFAg8bHJJc)
+### 📱 [IntelliCal](https://github.com/jerrylin-23/IntelliCal)
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" /> <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=android&logoColor=white" /> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" /> <img src="https://img.shields.io/badge/Gemini_Vision-8E75C2?style=flat-square&logo=googlegemini&logoColor=white" />
-* **AI Nutrition:** Gemini vision pipeline converting meal photos into structured nutrition estimates with schema-constrained output and retry handling.
-* **App Architecture:** Android app built with Jetpack Compose and MVVM, with asynchronous state management through Kotlin Coroutines.
-* **Gamified Retention:** Forest gamification system syncing user progress to a PostgreSQL backend.
+* **Team delivery:** Led sprint planning for a **4-person team** across **4 sprints**, building a Kotlin Android app with Jetpack Compose, Gemini meal analysis, and Supabase authentication.
+* **Meal analysis:** Reduced response variability by **40%** on repeated meal photos through Gemini temperature tuning, JSON-mode responses, and client-side retries.
+* **Meal logging:** Reduced logging time by **20 seconds per entry** versus manual input, with structured calorie and macro fields, persistent sessions, and real-time sync.
+
+[Watch the demo](https://www.youtube.com/shorts/UCFAg8bHJJc)
 
 ---
 
 ## 💼 Professional Experience
 
-### 🏦 Incoming Software Engineer @ RBC Wealth Management
-*Toronto, ON — Sept 2026 – Dec 2026*
+### 🏦 Software Engineer Intern @ RBC Wealth Management
+*Toronto, ON · Sept 2026 to Present*
 
-* **Cloud Platforms:** Engineering an interactive financial forecasting engine and an AI-driven advisor assistant using React, microservices, AWS, and OpenShift.
+* **Service performance:** Reduced p95 latency by **70%** during peak load for AWS and OpenShift wealth services through autoscaling, load balancing, and Redis rate limiting shared across clusters.
+* **AI data access:** Built CRM tools serving **30,000+ requests/day** through REST and Apollo GraphQL APIs in Node.js and TypeScript, with Redis-cached authentication tokens.
+* **Platform maintenance:** Leading the migration of custom Snowflake integrations to official Snowflake SDKs.
 
-### 🚘 Software Engineer @ AutoTrader
-*Toronto, ON (Hybrid) — Sept 2025 – Dec 2025 · Jan 2025 – Apr 2025*
+### 🚘 Software Engineer Intern @ AutoTrader.ca
+*Toronto, ON · Jan 2025 to Apr 2025; Sept 2025 to Dec 2025*
 
-* **Data Scale:** Scaled AWS Python pipelines to crawl **500K+** URLs, cutting runtime from hours to minutes via parallel workers + Redis caching.
-* **Stakeholder Analytics:** Built weekly ETL into PostgreSQL and Tableau dashboards used by **20+** leadership and marketing stakeholders.
-* **ML Modeling:** Built a scikit-learn scoring engine ranking **20K+** articles to prioritize content strategy.
+* **Data pipelines:** Cut Python pipeline runtime from **4 hours to under 15 minutes** for **500K+ listings** on AWS through parallel workers and Redis caching.
+* **Service reliability:** Cut failed-request investigation time by **26%** with correlated JSON logs, exponential-backoff retries, and circuit breakers.
+* **Reporting:** Replaced manual weekly reporting for **20+ product stakeholders** with Python ETL, PostgreSQL, and Tableau dashboards.
+* **Content scoring:** Ranked opportunities across **20K+ articles** using scikit-learn regression and cohort analysis.
 
-### 🎟️ Software Engineer @ HeadsUp Group & iVirtual
-*Toronto, ON — Jan 2024 – Apr 2024*
+### 🎟️ Software Engineer Intern @ HeadsUp Group & iVirtual
+*Toronto, ON · Jan 2024 to Apr 2024*
 
-* **Database Consolidation:** Dockerized AWS ETL pipelines merging 4 siloed databases, saving **300+** engineering hours/year.
-* **Notification Engine:** Built a SendGrid pipeline with queued retries for an NHL Kraken rewards pilot, sustaining **80%+** weekly engagement.
-* **User Segmentation:** Built a pipeline clustering **100+** user profiles by behavior for personalized rewards delivery.
+* **Data consolidation:** Saved **300+ engineering hours/year** by combining **4 databases** into one AWS data layer with automated sync across Dockerized Python and Node.js services.
+* **User engagement:** Increased active users by **40%** in a Seattle Kraken NHL rewards pilot with **200+ users** through a SendGrid notification platform with templates for each user segment.
 
 ---
 
